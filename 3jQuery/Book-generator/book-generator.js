@@ -43,7 +43,7 @@ function createBook(selector, title, authorName, isbn) {
     bookDiv.appendTo(container);
 }
 
-// Function that gives 100 points in Jugde but it is not correct - the id is always "1" 
+// Function that gives 100 points in Jugde but it is not correct - the id is always "1"
 //
 // function createBook(selector, title, authorName, isbn) {
 //     let bookGeneratorVar = (function () {
