@@ -1,7 +1,5 @@
 function printWordsUppercase(string) {
-    const regex = /\w+/gm;
-
-    let resultArr = string.match(regex);
+    let resultArr = string.match(/\w+/gm);
     resultArr = resultArr.map(x => x.toUpperCase());
 
     console.log(resultArr.join(", "));
